@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Java_else {
     public static void main(String[] args) {
-        Scanner bbb = new Scanner(System.in);
+        Scanner c = new Scanner(System.in);
 
         System.out.println("A 점수를 입력하세요: ");
-        int A = bbb.nextInt();
+        int A = c.nextInt();
 
         if (A > 90) {
             System.out.println("A 점수가 90점 이상입니다.");
@@ -15,7 +15,7 @@ public class Java_else {
             System.out.println("A 점수가 90점 이하입니다.");
         }
 
-        bbb.close();
+        c.close();
     }
 }
 
